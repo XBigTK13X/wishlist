@@ -4,51 +4,62 @@
     <meta charset="utf-8">
     <title>Kretschmer Wishlist</title>
     <style>
+      html, body {
+        height:100%;
+        margin:0;
+      }
       img {
-        width: 40vw;
         height: 40vw;
         margin: 1vw;
+      }
+      .container {
+          min-height: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+      }
+      .cell {
+        display: flex; 
+        flex-basis: calc(50% - 40px);  
+        justify-content: center;
+        flex-direction: column;
       }
     </style>
   </head>
   <body>
-    <table>
-      <tr>
-        <td>
+    <div class="container">
+        <div class="cell">
           <a href="https://www.giftster.com/gift/public/Qjxp0/">
             <img src="https://github.com/XBigTK13X/wishlist/raw/2e25ef3891113b0c0fcecedd35d5b7bab16595fa/docs/PXL_20230915_001212237.png" />
           </a>
           <a href="https://www.giftster.com/gift/public/Qjxp0/">
             https://www.giftster.com/gift/public/Qjxp0/
           </a>
-        </td>
-        <td>
+        </div>
+        <div class="cell">
           <a href="https://www.giftster.com/gift/public/2YHv4/">
             <img src="https://github.com/XBigTK13X/wishlist/raw/2e25ef3891113b0c0fcecedd35d5b7bab16595fa/docs/PXL_20231007_161816222.jpg" />
           </a>
           <a href="https://www.giftster.com/gift/public/2YHv4/">
             Kat - https://www.giftster.com/gift/public/2YHv4/
           </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
+        </div>
+        <div class="cell">
           <a href="https://www.giftster.com/gift/public/SfeKS/">
             <img src="https://github.com/XBigTK13X/wishlist/raw/2e25ef3891113b0c0fcecedd35d5b7bab16595fa/docs/PXL_20231007_222743026.jpg" />
           </a>
           <a href="https://www.giftster.com/gift/public/SfeKS/">
             https://www.giftster.com/gift/public/SfeKS/
           </a>
-        </td>
-        <td>
+        </div>
+        <div class="cell">
           <a href="https://www.giftster.com/gift/public/t6IcK/">
             <img src="https://github.com/XBigTK13X/wishlist/raw/2e25ef3891113b0c0fcecedd35d5b7bab16595fa/docs/PXL_20230920_125234665.jpg" />
           </a>
           <a href="https://www.giftster.com/gift/public/t6IcK/">
             https://www.giftster.com/gift/public/t6IcK/
           </a>
-        </td>
-      </tr>
-    </table>
+        </div>
+    </div>
   </body>
 </html>
